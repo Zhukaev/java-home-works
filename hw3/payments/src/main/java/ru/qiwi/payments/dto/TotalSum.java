@@ -1,5 +1,18 @@
 package ru.qiwi.payments.dto;
 
 public class TotalSum {
-    // TODO
+    final Double amount;
+    public String user;
+
+    public TotalSum(Double amount) {
+        this.amount = amount;
+    }
+
+    public Double getAmount() {
+        return amount;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
 }
